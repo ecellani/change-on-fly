@@ -32,7 +32,11 @@ dependencyManagement {
 dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-web'
 	compile 'org.springframework.boot:spring-boot-starter-actuator'
+	compile 'org.springframework.boot:spring-boot-starter-data-mongodb'
+
 	compile 'org.springframework.cloud:spring-cloud-config-client'
+
+	compile 'org.projectlombok:lombok:1.16.14'
 }
 
 task wrapper(type: Wrapper) {

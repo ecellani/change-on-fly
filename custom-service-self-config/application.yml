@@ -1,9 +1,16 @@
 server:
-  port: 8080
+  port: 8081
 
 management:
   security:
     enabled: false
 
 cloud:
-  foo: try me
+  foo: try me2
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: fly10
+      port: 27017
