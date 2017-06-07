@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+management:
+  security:
+    enabled: false
+
+cloud:
+  foo: change2
